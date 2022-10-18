@@ -83,10 +83,6 @@ export default {};
   color: #17d3c2;
 }
 
-.nav_header ul li:hover div {
-  display: block;
-}
-
 /* 导航图标字体 */
 .nav_header ul li span {
   font-size: 20px;
@@ -95,12 +91,17 @@ export default {};
 
 /* nav_list */
 .nav_header ul li div {
-  display: none;
   width: 125%;
+  height: 0px;
+  overflow: hidden;
   background-color: rgba(66, 66, 66, 0.3);
+  transition: all 0.2s linear;
 }
 .nav_header ul li div a {
   padding-left: 20px;
   display: block;
+}
+.nav_header ul li:hover div {
+  height: 100px;
 }
 </style>
