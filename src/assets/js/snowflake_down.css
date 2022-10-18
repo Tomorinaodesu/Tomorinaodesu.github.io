@@ -1,0 +1,194 @@
+#snowflakebox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* 不阻挡其它元素事件触发 */
+    pointer-events: none;
+    
+}
+
+#snowflake{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 white;
+}
+
+/* 伪随机 */
+@keyframes snow1{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(35px);
+    }
+    75%{
+        transform: translateX(65px);
+    }
+    100%{
+        transform: translateX(82px);
+    }
+}
+@keyframes snow2{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(-35px);
+    }
+    75%{
+        transform: translateX(-65px);
+    }
+    100%{
+        transform: translateX(-82px);
+    }
+}
+@keyframes snow3{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(30px);
+    }
+    50%{
+        transform: translateX(55px);
+    }
+    75%{
+        transform: translateX(25px);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+}
+@keyframes snow4{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-40px);
+    }
+    50%{
+        transform: translateX(-65px);
+    }
+    75%{
+        transform: translateX(-55px);
+    }
+    100%{
+        transform: translateX(-20px);
+    }
+}
+@keyframes snow5{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-40px);
+    }
+    50%{
+        transform: translateX(-35px);
+    }
+    75%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(15px);
+    }
+}
+@keyframes snow6{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(30px);
+    }
+    50%{
+        transform: translateX(85px);
+    }
+    75%{
+        transform: translateX(120px);
+    }
+    100%{
+        transform: translateX(125px);
+    }
+}
+@keyframes snow7{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(26px);
+    }
+    50%{
+        transform: translateX(15px);
+    }
+    75%{
+        transform: translateX(12px);
+    }
+    100%{
+        transform: translateX(13px);
+    }
+}
+@keyframes snow8{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(50px);
+    }
+    50%{
+        transform: translateX(130px);
+    }
+    75%{
+        transform: translateX(190px);
+    }
+    100%{
+        transform: translateX(250px);
+    }
+}
+@keyframes snow9{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-40px);
+    }
+    50%{
+        transform: translateX(-130px);
+    }
+    75%{
+        transform: translateX(-170px);
+    }
+    100%{
+        transform: translateX(-250px);
+    }
+}
+@keyframes snow10{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-40px);
+    }
+    50%{
+        transform: translateX(-130px);
+    }
+    75%{
+        transform: translateX(-170px);
+    }
+    100%{
+        transform: translateX(-250px);
+    }
+}
+
+
+
